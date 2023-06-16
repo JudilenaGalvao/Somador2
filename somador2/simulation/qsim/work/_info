@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Documents\somador2\simulation\qsim
+vsomador2
+Z1 IKzz2Do8hHU;A5SO:jPibV3
+Z2 VIMNEYO9Y^S<fk2TFz`Co;2
+Z3 dC:\Users\Aluno\Documents\somador2\simulation\qsim
+Z4 w1686768494
+Z5 8somador2.vo
+Z6 Fsomador2.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 _M=?3nMmOcKOENH>LcNVe0
+!s85 0
+Z10 !s108 1686768496.265000
+Z11 !s107 somador2.vo|
+Z12 !s90 -work|work|somador2.vo|
+!s101 -O0
+vsomador2_vlg_check_tst
+!i10b 1
+!s100 VgU;]cglAZhDK[b5RO<M53
+IH0o1z]YKW14SNOB4GZCh02
+VU@K1<13gAjTU<70Se6zXE2
+R3
+Z13 w1686768493
+Z14 8somador2.vt
+Z15 Fsomador2.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1686768496.493000
+Z17 !s107 somador2.vt|
+Z18 !s90 -work|work|somador2.vt|
+!s101 -O0
+R8
+vsomador2_vlg_sample_tst
+!i10b 1
+!s100 Gz>ma^AYUlfX0fn=QZmNC2
+IJ<ES>YCb0iOeak8kkQ]Tz1
+VEo`XUREg3FB>]@OM1m?F>1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vsomador2_vlg_vec_tst
+!i10b 1
+!s100 Q40nbil^0mhT14b1lf9@62
+IE@j6h<TIXIe@8;8KSBEIc3
+VZj=_lZaBkU?JlzD?OHWWP3
+R3
+R13
+R14
+R15
+L0 218
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

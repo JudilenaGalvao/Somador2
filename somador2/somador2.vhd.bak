@@ -1,0 +1,33 @@
+ENTITY somador2 IS
+
+GENERIC(n: INTEGER := 3);
+	PORT (A, B,: IN BIT_VECTOR(0 TO n-1);
+			Te: IN BIT;
+			S: OUT BIT_VECTOR(0 TO n-1);
+			TsFim: OUT BIT);
+			
+END somador2;
+
+ARCHITECTURE comportamento OF somador2 IS
+BEGIN
+
+	PROCESS(A, B, Te)
+		VARIABLE Ts: BIT_VECTOR(0 TO n);
+		VARIABLE i: INTEGER;
+		
+		BEGIN
+		
+			i := 0;
+			Ts(0) <= Te;
+			
+			ABC: WHILE i <= n-1 LOOP
+				S(i) <= Ts(i) XOR A(i) XOR B(i);
+				Ts(i+1) <= (Ts(i) AND A(i)) OR (Ts(i) AND B(i)) OR (A(i) AND B(i));
+				i := i + 1;
+				
+			AND LOOP ABC;
+			TsFim <= Ts(n);
+			
+	END PROCESS;
+		
+END comportamento;

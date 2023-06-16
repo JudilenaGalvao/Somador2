@@ -1,0 +1,28 @@
+|somador2
+A[2] => S.IN1
+A[2] => Ts.IN1
+A[2] => Ts.IN0
+A[1] => S.IN1
+A[1] => Ts.IN1
+A[1] => Ts.IN0
+A[0] => S.IN0
+A[0] => Ts.IN0
+A[0] => Ts.IN0
+B[2] => S.IN1
+B[2] => Ts.IN1
+B[2] => Ts.IN1
+B[1] => S.IN1
+B[1] => Ts.IN1
+B[1] => Ts.IN1
+B[0] => S.IN1
+B[0] => Ts.IN0
+B[0] => Ts.IN1
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+TsFim <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+
+
